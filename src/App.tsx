@@ -51,7 +51,7 @@ function App() {
               marginTop: "-20px",
               color: "rgb(166, 226, 46)",
               fontSize:"20px"
-            }}>Building apps using server commands on github actions</p>
+            }}>Building apps using server commands on Github Actions</p>
 
             <div
                 style={{
@@ -123,8 +123,7 @@ Here is how we did it:
 `}
 </SyntaxHighlighter>
 {`
-  4. We created a new secret in the repository settings called "ftp_username" and set its value to the username of our FTP account.
-  5. We created a new secret in the repository settings called "ftp_password" and set its value to the password of our FTP account.
+  4. We created a new secrets in the repository settings called "ftp_username" and "ftp_password" and set their values to the username and password of our FTP account.
     
 now whenever we push to the main branch, the project will be built and deployed to our FTP server, hence this is a CI/CD solution and we plan to make this solution more efficient by using a docker image to build the project and deploy it to our FTP server, in the future.
 `}
