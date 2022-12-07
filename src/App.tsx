@@ -10,7 +10,7 @@ function App() {
     return (
       <>
         <Helmet>
-          <title>Testing CI/CD for FTP Deployment with React</title>
+          <title>CI/CD | Mirage</title>
           <meta name="description" content="Building apps using server commands on github actions" />
           {/**
            * add the following meta data for the website to be indexed by search engines
